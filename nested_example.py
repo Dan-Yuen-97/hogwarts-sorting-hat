@@ -6,3 +6,12 @@ if house == "gryffindor":
 
     if points > 100:
         print("Gryffindor is doing brilliantly!")
+
+trait = input("What best describes you? ").lower()
+
+if trait == "brave":
+    house = "Gryffindor"
+else:
+    house = "Unknown"  
+
+print(house)
