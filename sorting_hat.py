@@ -30,3 +30,18 @@ trait = input("What best describes you? ").lower()
 
 if trait == "brave" or trait == "daring":
     print("You belong in Gryffindor!")
+
+not TRUE = FALSE
+not FALSE = TRUE
+
+tired = False
+trait = input("What best describes you? ").lower()
+
+if (trait == "brave" or trait == "daring") and not tired:
+    print("You belong in Gryffindor!")
+
+bravery = int(input("how brave are you on a scale of 1-10? "))
+loyalty = int(input("how loyal are you on a scale of 1-10? "))
+
+if bravery >= 7 and loyalty >= 5:
+    print("You could belong in Gryffindor or Hufflepuff!")
