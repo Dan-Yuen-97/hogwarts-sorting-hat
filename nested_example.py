@@ -9,9 +9,9 @@ if house == "gryffindor":
 
 trait = input("What best describes you? ").lower()
 
+house = "Unknown"
+
 if trait == "brave":
     house = "Gryffindor"
-else:
-    house = "Unknown"  
 
 print(house)
