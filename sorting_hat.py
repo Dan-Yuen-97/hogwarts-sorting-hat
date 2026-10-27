@@ -1,6 +1,6 @@
 print("Welcome to the Hogwarts Sorting Hat!")
 
-trait = input("What best describes you?")
+trait = input("What best describes you?").lower()
 
 if trait == "brave":
     print("You belong in Gryffindor!")
@@ -19,3 +19,14 @@ elif trait == "evil":
 
 else:
     print("The sorting Hat is confused.")
+
+brave = input("Are you brave? ").lower()
+intelligent = input("Are you intelligent? ").lower()
+
+if brave == "yes" and intelligent == "yes":
+    print("You could belong in Gryffindor or Ravenclaw!")
+
+trait = input("What best describes you? ").lower()
+
+if trait == "brave" or trait == "daring":
+    print("You belong in Gryffindor!")
